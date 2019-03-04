@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::name('home-page')->get('', function () {
+    return redirect()->route('front.index');
+});
+
+Route::namespace('Front')->name('front.')->group(function (){
+
+    Route::name('index')->get('/generator-cv', 'IndexController@show');
+    Route::name('generate-cv')->post('/generator-cv', 'genCvController@generate');
 });
