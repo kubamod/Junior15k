@@ -1,0 +1,23 @@
+
+
+html, body {
+    height: 100%;
+}
+
+.right-side {
+    border-left: 2px solid #0d47db;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.better-color {
+    background-color: #0d47db;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.center-align form{
+    margin-top: 100px;
+}
+
+
