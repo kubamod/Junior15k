@@ -33,7 +33,7 @@ Wiek:
 <div class="form-check">
 
     <label class="form-check-label">
-        {!! Form::radio('test', false, ['id' => 'small']) !!}
+        {!! Form::radio('test', 1, ['id' => 'small']) !!}
         30-50
     </label>
 </div>
@@ -41,7 +41,7 @@ Wiek:
 <div class="form-check">
 
     <label class="form-check-label">
-        {!! Form::radio('test', false, ['id' => 'small']) !!}
+        {!! Form::radio('test', 1, ['id' => 'small']) !!}
         18-30
     </label>
 </div>
@@ -49,25 +49,25 @@ Wiek:
 <hr/>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('git', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('git', 1, ['id' => 'small']) !!}
         Nie dawaj linka do gita bo po co.
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('bootcamp', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('bootcamp', 1, ['id' => 'small']) !!}
         Bootcamp
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('lay', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('lay', 1, ['id' => 'small']) !!}
         Nakłam w CV
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('interests', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('interests', 1, ['id' => 'small']) !!}
         Zainteresowania
     </label>
 </div>
@@ -79,37 +79,37 @@ Wiek:
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('experience', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('experience', 1, ['id' => 'small']) !!}
         Doświadczenie sprzed 20 lat
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('photo', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('photo', 1, ['id' => 'small']) !!}
         Zdjęcie z imprezy
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('js', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('js', 1, ['id' => 'small']) !!}
         Pomyl Java'e z JS
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('fogot_phone', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('fogot_phone', 1, ['id' => 'small']) !!}
         Zapomnij numeru telefonu
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('email_z_dupy', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('email_z_dupy', 1, ['id' => 'small']) !!}
         Email z dupy
     </label>
 </div>
 <div class="form-check">
     <label class="form-check-label">
-        {!! Form::checkbox('polish_ci', false, ['id' => 'small']) !!}
+        {!! Form::checkbox('polish_ci', 1, ['id' => 'small']) !!}
         Nie dawaj polskich znaków
     </label>
 </div>

@@ -9,7 +9,7 @@ class IndexController extends Controller
 {
     public function show() {
 
-        return view('front.cv1');
+        return view('front.index');
 
     }
 }

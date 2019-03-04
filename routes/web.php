@@ -18,7 +18,5 @@ Route::name('home-page')->get('', function () {
 Route::namespace('Front')->name('front.')->group(function (){
 
     Route::name('index')->get('/generator-cv', 'IndexController@show');
-    Route::name('generate-cv')->post('/generator-cv', function () {
-        return 1;
-    });
+    Route::name('generate-cv')->post('/generator-cv', 'genCvController@generate');
 });

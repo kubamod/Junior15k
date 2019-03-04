@@ -21,6 +21,8 @@
             </div>
             @yield('CV')
 
+
+
         </div>
         <div class="col-md-4 right-side center-align">
 
