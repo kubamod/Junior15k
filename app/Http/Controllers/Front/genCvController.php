@@ -17,7 +17,7 @@ class genCvController extends Controller
 
 
 
-
+//        dd($request->all());
 
         return view('front.cv1', compact('request'));
     }
